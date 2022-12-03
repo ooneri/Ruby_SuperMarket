@@ -93,7 +93,7 @@ end
 
 def shop
   # before store opening
-  stock = Stock.new(50)
+  stock = Stock.new(100)
   stock.all
   stock.bad_items_removed
   purchased = []
@@ -157,4 +157,3 @@ def shop
 end
 
 shop
-
